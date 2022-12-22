@@ -1,3 +1,7 @@
+version 7
+
+
+
   294  sudo apt install git
   297  git config --list --show-origin
   302  git config --global user.name "toni"
