@@ -1,0 +1,1658 @@
+https://www.shellhacks.com/bash-colors/
+
+sepi@Host:~$ history
+    1  sudo gpg --dearmor oracle_vbox_2016.asc --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg~
+    2  ll
+    3  sudo gpg --dearmor oracle_vbox_2016.asc --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg
+    4  wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --dearmor --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg
+    5  sudo wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --dearmor --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg
+    6  sudo apt search vitualbox
+    7  history
+    8  sudo apt update
+    9  history
+   10  sudo apt search virtualbox
+   11  sudo apt install virtualbox-7.0 
+   12  apt-get
+   13  sudo apt install virtualbox-7.0
+   14  virtualbox
+   15  ip a
+   16  ip r
+   17  ping 10.125.128.5
+   18  ping 10.125.1.5
+   19  nmcli networking off
+   20  nmcli networking on
+   21  ip a
+   22  ip r
+   23  ping 1.1.1.1
+   24  ping www.kernel.org
+   25  ping 1.1.1.1
+   26  ip r
+   27  PING 1.1.1.1
+   28  ping 1.1.1.1
+   29  nmcli networking off
+   30  nmcli networking on
+   31  ip a
+   32  sudo upt instal samba
+   33  sudo upt samba
+   34  ip a
+   35  ssh -p 2222 sepideh@10.125.1.5
+   36  ssh -p 2222 sepideh@10.125.1.5
+   37  ssh -p 2222 sepideh@10.125.1.5
+   38  y
+   39  ssh -p 2222 sepideh@10.125.1.5
+   40  ssh -p 2222 sepideh@10.125.2.5
+   41  cat /etc/hostname
+   42  cat /etc/hosts
+   43  sudo nano/etc/hosts
+   44  sudo nano /etc/hosts
+   45  ping -c 3 gateway
+   46  sudo nano/etc/hosts
+   47  sudo nano /etc/hosts
+   48  ping -c 3 gateway
+   49  less /etc/services
+   50  history
+   51  grep -i microsoft /etc/services
+   52  grep microsoft /etc/services
+   53  echo "Hello world"
+   54  echo "Hello world" > myfile
+   55  ls
+   56  echo "Bienvenusous Linux" > myfile
+   57  cat myfile 
+   58  echo "Deuxiéme ligne" > myfile
+   59  echo "Troisième ligne" >> myfile
+   60  cat myfile
+   61  history
+   62  sudo apt info logicim
+   63  sudo apt version logicim
+   64  sudo apt show logicim
+   65  sudo apt show logisim
+   66  sudo apt search java
+   67  sudo apt search java/ grep jre
+   68  sudo apt search openjdk
+   69  grep -i sepideh /etc/passwd
+   70  grep -i sepideh/etc/passwd
+   71  grep -i sepideh /etc/passwd
+   72  grep -i sepideh /etc/passwd | cut -d: -f6
+   73  grep -i sepi /etc/passwd
+   74  grep -i sepi /etc/passwd | cut -d: -f6 
+   75  grep -i sepi /etc/passwd | cut -f3,6 
+   76  grep -i sepi /etc/passwd | cut -d: -f3,6 
+   77  mkdir /tmp/testing
+   78  cd /tmp/testing
+   79  mkdir niv1/niv2/niv3
+   80  man mkdir
+   81  mkdir -p niv1/niv2/niv3
+   82  ls
+   83  ls -R
+   84  man ls
+   85  man cp
+   86  cp /etc/services / tmp/testing/niv1/niv2/niv3/
+   87  cp /etc/services /tmp/testing/niv1/niv2/niv3/
+   88  ls /tmp/testing/niv1/niv2/niv3
+   89  SUDO cp -R /var/log niv1/niv2/niv3/
+   90  sudo cp -R /var/log niv1/niv2/niv3/
+   91  ls niv1/niv2/niv3
+   92  tree niv1/niv2/niv3/log
+   93  pwd
+   94  man mv
+   95  sudo mv niv1/niv2/niv3/services niv1/ niv2/
+   96  sudo mv niv1/niv2/niv3/services niv1/niv2/
+   97  ls niv1/niv2/
+   98  ls
+   99  sudo apt install tree
+  100  history
+  101  ls niv1/niv2
+  102  sudo mv niv1/niv2/services niv1/niv2/newfile
+  103  sudo mv niv1/niv2/services niv1/niv2/newfile/
+  104  ls niv1/niv2/niv3/
+  105  sudo mv niv1/niv2/niv3/log niv1/niv2/newdir
+  106  ls niv1/niv2/
+  107  man rm
+  108  sudo rm niv1/niv2/newfile
+  109  ls niv1/niv2/
+  110  pwd
+  111  sudo rm -R niv1/niv2/newdir/
+  112  ls niv1/niv2/
+  113  quiet resulation=1024x768
+  114  ip a
+  115  ssh -p 2223 sepi@10.125.1.5
+  116  S1168s.
+  117  ssh -p 2223 sepideh@10.125.1.5
+  118  nano .bashrc
+  119  nano .bashrc*
+  120  nano .bashrc *
+  121  nano .bashrc
+  122  nano .bashrc 
+  123  source .bashrc 
+  124  ssh -p 2224 sepideh@10.0.2.15
+  125  ssh -p 2224 sepideh@10.125.1.5
+  126  ip a
+  127  ssh -p 2224 sepideh@10.125.1.5
+  128  ip r
+  129  ssh -p 2224 sepideh@10.125.1.5
+  130  HISTORY
+  131  history
+  132  ssh -p 2224 sepideh@10.125.1.5
+  133  ssh-keygen -b 4096
+  134  ls -l .ssh/
+  135  ssh-copy-id -p 224 sepideh@10.125.1.5
+  136  ssh -p 224 sepideh@10.125.1.5
+  137  
+  138  ²
+  139  ssh-keygen -b 4096
+  140  ssh-copy-id -p 2224 sepideh@10.125.1.5
+  141  exit
+  142  ssh -p 2224 sepideh@10.125.1.5
+  143  ssh-copy-id -p 2224 sepideh@10.125.1.5
+  144  ssh -p 2224 sepideh@10.125.1.5
+  145  ssh-keygen -b 4096
+  146  ssh-copy-id -p 2224 sepideh@10.125.1.5
+  147  ssh -p 2224 sepideh@10.125.1.5
+  148  ssh-copy-id -p 2222 sepideh@10.125.1.5
+  149  ssh-copy-id -p 2223 sepideh@10.125.1.5
+  150  ssh -p 2222 sepideh@10.125.1.5
+  151  ssh -p 2223 sepideh@10.125.1.5
+  152  ssh -p 2222 sepideh@10.125.1.5
+  153  ssh -p 2223 sepideh@10.125.1.5
+  154  
+  155  
+  156  sftp -P 2222 sepideh@10.125.1.5
+  157  sudo apt search filezilla
+  158  sudo apt install filezilla
+  159  history
+sepi@Host:~$ 
+
+sudo nano /etc/ssh/sshd_config
+sudo systemctl stop firewalld.service
+sudo systemctl start sshd.service
+sudo nano /etc/sysconfig/selinux
+sudo systemctl disable firewalld.service
+
+
+
+
+
+
+
+
+
+
+
+sepideh@debian:~$ history
+    1  ip a
+    2  sudo nano /etc/net
+    3  sudo nano/etc/network/interfaces
+    4  sudo nano /etc/network/interfaces
+    5  ip r
+    6  sudo nano /etc/network/interfaces
+    7  ip r
+    8  sudo nano /etc/resolv.conf
+    9  ping www.debian.org
+   10  ip a
+   11  sudo nano /etc/resolv.conf
+   12  ping www.debian.org
+   13  sudo reboot
+   14  history
+   15  sudo apt update
+   16  sudo apt upgrade
+   17  sudo apt search htop
+   18  sudo apt info aha
+   19  sudo apt info htop
+   20  sudo apt install htop
+   21  htop
+   22  history
+   23  sudo apt search maria
+   24  sudo apt install mariadb-server
+   25  sudo systemctl status mariadb.service 
+   26  sudo apt remove mariadb-server
+   27  sudo apt autoremove
+   28  history
+   29  time
+   30  timedatectl
+   31  timedatectl list-Time zone
+   32  timedatectl lists-Time zone
+   33  timedatectl list-timezones
+   34  sudo timedatectl set-timezone Europe/Lisbon
+   35  timedatectl
+   36  sudo timedatectl set-timezone Europe/Bucharest
+   37  man timedatectl
+   38  history
+   39  apropos ping
+   40  man ping4
+   41  apropos hostname
+   42  man 1 hostname
+   43  man 5 hostname
+   44  history
+   45  timedatectl list-Time zone
+   46  man 1 hostname
+   47  sudo timedatectl set-timezone Europe/Brussels
+   48  history
+   49  ls /etc
+   50  cd/var/log
+   51  cd /var/log 
+   52  ls
+   53  pwd
+   54  cd ..
+   55  pwd /var
+   56  cd
+   57  pwd /home/sepideh
+   58  ls -a
+   59  history
+   60  cd /tmp
+   61  mkdir abc
+   62  mkdir aBc
+   63  mkdir abC
+   64  ls
+   65  cd
+   66  cd /tmp
+   67  rm -h
+   68  man rm 
+   69  rm -R abc aBc abC
+   70  cd
+   71  ls -a
+   72  cat .bash_history
+   73  exit
+   74  sudo systemctl status ssh.service
+   75  exit
+   76  ss -pantu
+   77  sudo ss -pantu
+   78  sudo nano  /etc/ssh/sshd_config
+   79  sudo nano -c /etc/ssh/sshd_config
+   80  sudo systemctl restart ssh.srvice
+   81  sudo ss -pantu
+   82  exit
+   83  groups
+   84  id
+   85  sudo gpasswd -a sepideh sshusers
+   86  history
+sepideh@debian:~$ 
+
+PermitRootLogin no
+AllowGroups sshusers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+epi@Host:~$ history
+    1  sudo gpg --dearmor oracle_vbox_2016.asc --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg~
+    2  ll
+    3  sudo gpg --dearmor oracle_vbox_2016.asc --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg
+    4  wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --dearmor --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg
+    5  sudo wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --dearmor --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg
+    6  sudo apt search vitualbox
+    7  history
+    8  sudo apt update
+    9  history
+   10  sudo apt search virtualbox
+   11  sudo apt install virtualbox-7.0 
+   12  apt-get
+   13  sudo apt install virtualbox-7.0
+   14  virtualbox
+   15  ip a
+   16  ip r
+   17  ping 10.125.128.5
+   18  ping 10.125.1.5
+   19  nmcli networking off
+   20  nmcli networking on
+   21  ip a
+   22  ip r
+   23  ping 1.1.1.1
+   24  ping www.kernel.org
+   25  ping 1.1.1.1
+   26  ip r
+   27  PING 1.1.1.1
+   28  ping 1.1.1.1
+   29  nmcli networking off
+   30  nmcli networking on
+   31  ip a
+   32  sudo upt instal samba
+   33  sudo upt samba
+   34  ip a
+   35  ssh -p 2222 sepideh@10.125.1.5
+   36  ssh -p 2222 sepideh@10.125.1.5
+   37  ssh -p 2222 sepideh@10.125.1.5
+   38  y
+   39  ssh -p 2222 sepideh@10.125.1.5
+   40  ssh -p 2222 sepideh@10.125.2.5
+   41  cat /etc/hostname
+   42  cat /etc/hosts
+   43  sudo nano/etc/hosts
+   44  sudo nano /etc/hosts
+   45  ping -c 3 gateway
+   46  sudo nano/etc/hosts
+   47  sudo nano /etc/hosts
+   48  ping -c 3 gateway
+   49  less /etc/services
+   50  history
+   51  grep -i microsoft /etc/services
+   52  grep microsoft /etc/services
+   53  echo "Hello world"
+   54  echo "Hello world" > myfile
+   55  ls
+   56  echo "Bienvenusous Linux" > myfile
+   57  cat myfile 
+   58  echo "Deuxiéme ligne" > myfile
+   59  echo "Troisième ligne" >> myfile
+   60  cat myfile
+   61  history
+   62  sudo apt info logicim
+   63  sudo apt version logicim
+   64  sudo apt show logicim
+   65  sudo apt show logisim
+   66  sudo apt search java
+   67  sudo apt search java/ grep jre
+   68  sudo apt search openjdk
+   69  grep -i sepideh /etc/passwd
+   70  grep -i sepideh/etc/passwd
+   71  grep -i sepideh /etc/passwd
+   72  grep -i sepideh /etc/passwd | cut -d: -f6
+   73  grep -i sepi /etc/passwd
+   74  grep -i sepi /etc/passwd | cut -d: -f6 
+   75  grep -i sepi /etc/passwd | cut -f3,6 
+   76  grep -i sepi /etc/passwd | cut -d: -f3,6 
+   77  mkdir /tmp/testing
+   78  cd /tmp/testing
+   79  mkdir niv1/niv2/niv3
+   80  man mkdir
+   81  mkdir -p niv1/niv2/niv3
+   82  ls
+   83  ls -R
+   84  man ls
+   85  man cp
+   86  cp /etc/services / tmp/testing/niv1/niv2/niv3/
+   87  cp /etc/services /tmp/testing/niv1/niv2/niv3/
+   88  ls /tmp/testing/niv1/niv2/niv3
+   89  SUDO cp -R /var/log niv1/niv2/niv3/
+   90  sudo cp -R /var/log niv1/niv2/niv3/
+   91  ls niv1/niv2/niv3
+   92  tree niv1/niv2/niv3/log
+   93  pwd
+   94  man mv
+   95  sudo mv niv1/niv2/niv3/services niv1/ niv2/
+   96  sudo mv niv1/niv2/niv3/services niv1/niv2/
+   97  ls niv1/niv2/
+   98  ls
+   99  sudo apt install tree
+  100  history
+  101  ls niv1/niv2
+  102  sudo mv niv1/niv2/services niv1/niv2/newfile
+  103  sudo mv niv1/niv2/services niv1/niv2/newfile/
+  104  ls niv1/niv2/niv3/
+  105  sudo mv niv1/niv2/niv3/log niv1/niv2/newdir
+  106  ls niv1/niv2/
+  107  man rm
+  108  sudo rm niv1/niv2/newfile
+  109  ls niv1/niv2/
+  110  pwd
+  111  sudo rm -R niv1/niv2/newdir/
+  112  ls niv1/niv2/
+  113  quiet resulation=1024x768
+  114  ip a
+  115  ssh -p 2223 sepi@10.125.1.5
+  116  S1168s.
+  117  ssh -p 2223 sepideh@10.125.1.5
+  118  nano .bashrc
+  119  nano .bashrc*
+  120  nano .bashrc *
+  121  nano .bashrc
+  122  nano .bashrc 
+  123  source .bashrc 
+  124  ssh -p 2224 sepideh@10.0.2.15
+  125  ssh -p 2224 sepideh@10.125.1.5
+  126  ip a
+  127  ssh -p 2224 sepideh@10.125.1.5
+  128  ip r
+  129  ssh -p 2224 sepideh@10.125.1.5
+  130  HISTORY
+  131  history
+  132  ssh -p 2224 sepideh@10.125.1.5
+  133  ssh-keygen -b 4096
+  134  ls -l .ssh/
+  135  ssh-copy-id -p 224 sepideg@10.125.1.5
+  136  ssh -p 224 sepideg@10.125.1.5
+  137  ssh -p 2224 sepideg@10.125.1.5
+  138  ²
+  139  ssh-keygen -b 4096
+  140  ssh-copy-id -p 2224 sepideh@10.125.1.5
+  141  exit
+  142  ssh -p 2224 sepideh@10.125.1.5
+  143  ssh-copy-id -p 2224 sepideh@10.125.1.5
+  144  ssh -p 2224 sepideh@10.125.1.5
+  145  ssh-keygen -b 4096
+  146  ssh-copy-id -p 2224 sepideh@10.125.1.5
+  147  ssh -p 2224 sepideh@10.125.1.5
+  148  ssh-copy-id -p 2222 sepideh@10.125.1.5
+  149  ssh-copy-id -p 2223 sepideh@10.125.1.5
+  150  ssh -p 2222 sepideh@10.125.1.5
+  151  ssh -p 2223 sepideh@10.125.1.5
+  152  ssh -p 2222 sepideh@10.125.1.5
+  153  ssh -p 2223 sepideh@10.125.1.5
+  154  stfp -P 2222 sepideh@10.125.1.5
+  155  stfp -P 2222 sepi@10.125.1.5
+  156  sftp -P 2222 sepideh@10.125.1.5
+  157  sudo apt search filezilla
+  158  sudo apt install filezilla
+  159  history
+  160  ssh -p 2222 sepideh@10.125.1.5 ls -l
+  161  ssh -P 2222 sepideh@10.125.1.5
+  162  ssh -p 2222 sepideh@10.125.1.5
+  163  ssh -p 2223 sepideh@10.125.1.5
+  164  ssh -p 2222 sepideh@10.125.1.5
+  165  ssh -p 2223 sepideh@10.125.1.5
+  166  ssh -p 2224 sepideh@10.125.1.5
+  167  ssh -p 2223 sepideh@10.125.1.5
+  168  history
+sepi@Host:~$ 
+
+
+
+
+
+
+
+
+sepideh@debian:~$ history
+    1  ip a
+    2  sudo nano /etc/net
+    3  sudo nano/etc/network/interfaces
+    4  sudo nano /etc/network/interfaces
+    5  ip r
+    6  sudo nano /etc/network/interfaces
+    7  ip r
+    8  sudo nano /etc/resolv.conf
+    9  ping www.debian.org
+   10  ip a
+   11  sudo nano /etc/resolv.conf
+   12  ping www.debian.org
+   13  sudo reboot
+   14  history
+   15  sudo apt update
+   16  sudo apt upgrade
+   17  sudo apt search htop
+   18  sudo apt info aha
+   19  sudo apt info htop
+   20  sudo apt install htop
+   21  htop
+   22  history
+   23  sudo apt search maria
+   24  sudo apt install mariadb-server
+   25  sudo systemctl status mariadb.service 
+   26  sudo apt remove mariadb-server
+   27  sudo apt autoremove
+   28  history
+   29  time
+   30  timedatectl
+   31  timedatectl list-Time zone
+   32  timedatectl lists-Time zone
+   33  timedatectl list-timezones
+   34  sudo timedatectl set-timezone Europe/Lisbon
+   35  timedatectl
+   36  sudo timedatectl set-timezone Europe/Bucharest
+   37  man timedatectl
+   38  history
+   39  apropos ping
+   40  man ping4
+   41  apropos hostname
+   42  man 1 hostname
+   43  man 5 hostname
+   44  history
+   45  timedatectl list-Time zone
+   46  man 1 hostname
+   47  sudo timedatectl set-timezone Europe/Brussels
+   48  history
+   49  ls /etc
+   50  cd/var/log
+   51  cd /var/log 
+   52  ls
+   53  pwd
+   54  cd ..
+   55  pwd /var
+   56  cd
+   57  pwd /home/sepideh
+   58  ls -a
+   59  history
+   60  cd /tmp
+   61  mkdir abc
+   62  mkdir aBc
+   63  mkdir abC
+   64  ls
+   65  cd
+   66  cd /tmp
+   67  rm -h
+   68  man rm 
+   69  rm -R abc aBc abC
+   70  cd
+   71  ls -a
+   72  cat .bash_history
+   73  exit
+   74  sudo systemctl status ssh.service
+   75  exit
+   76  ss -pantu
+   77  sudo ss -pantu
+   78  sudo nano  /etc/ssh/sshd_config
+   79  sudo nano -c /etc/ssh/sshd_config
+   80  sudo systemctl restart ssh.srvice
+   81  sudo ss -pantu
+   82  exit
+   83  groups
+   84  id
+   85  sudo gpasswd -a sepideh sshusers
+   86  history
+   87  exit
+   88  sudo ss -pantu
+   89  groups 
+   90  sudo grep -i allowgroups /etc/ssh/ssh_config
+   91  sudo grep -i allowgroups /etc/ssh/sshd_config
+   92  sudo grep -i permitRoot /etc/ssh/sshd_config
+   93  sudo grep -i PermitRootLogin /etc/ssh/sshd_config
+   94  man scp
+   95  exit
+   96  ls
+   97  cat hosts
+   98  exit
+   99  ls
+  100  cat hosts
+  101  ls log
+  102  exit
+  103  less  /etc/group
+  104  groupadd dev
+  105  sudo groupadd dev
+  106  grep -i dev /etc/group
+  107  cat /etc/passwd
+  108  apropos passwd
+  109  man 5 passwd
+  110  cat /etc/passwd
+  111  sudo cat /etc/shadow
+  112  exit
+  113  sudo passwd -u bail
+  114  sudo grep -u bail /etc/shadow
+  115  history
+sepideh@debian:~$ 
+
+sepideh@debian:~$ sudo ss -pantu
+sepideh@debian:~$ groups 
+sepideh@debian:~$ sudo grep -i allowgroups /etc/ssh/sshd_config
+epideh@debian:~$ sudo grep -i PermitRootLogin /etc/ssh/sshd_config
+sepideh@debian:~$ man scp
+sepideh@debian:~$ ls
+sepideh@debian:~$ cat hosts
+sepideh@debian:~$ exit
+sepi@Host:~$ sudo scp -P 2222 -r /var/log sepideh@10.125.1.5:/home/sepideh
+sepi@Host:~$ ssh -p 2222 sepideh@10.125.1.5
+sepideh@debian:~$ ls
+sepideh@debian:~$ ls log
+sepideh@debian:~$ exit
+sepi@Host:~$ scp -P 2222 -r sepideh@10.125.1.5:/home/sepideh .
+sepi@Host:~$ ssh -p 2222 sepideh@10.125.1.5
+sepideh@debian:~$ less  /etc/group
+sepideh@debian:~$ sudo groupadd dev
+sepideh@debian:~$ grep -i dev /etc/group
+sepideh@debian:~$ cat /etc/passwd
+sepideh@debian:~$ less  /etc/group
+
+
+sepideh@debian:~$ history
+    1  ip a
+    2  sudo nano /etc/net
+    3  sudo nano/etc/network/interfaces
+    4  sudo nano /etc/network/interfaces
+    5  ip r
+    6  sudo nano /etc/network/interfaces
+    7  ip r
+    8  sudo nano /etc/resolv.conf
+    9  ping www.debian.org
+   10  ip a
+   11  sudo nano /etc/resolv.conf
+   12  ping www.debian.org
+   13  sudo reboot
+   14  history
+   15  sudo apt update
+   16  sudo apt upgrade
+   17  sudo apt search htop
+   18  sudo apt info aha
+   19  sudo apt info htop
+   20  sudo apt install htop
+   21  htop
+   22  history
+   23  sudo apt search maria
+   24  sudo apt install mariadb-server
+   25  sudo systemctl status mariadb.service 
+   26  sudo apt remove mariadb-server
+   27  sudo apt autoremove
+   28  history
+   29  time
+   30  timedatectl
+   31  timedatectl list-Time zone
+   32  timedatectl lists-Time zone
+   33  timedatectl list-timezones
+   34  sudo timedatectl set-timezone Europe/Lisbon
+   35  timedatectl
+   36  sudo timedatectl set-timezone Europe/Bucharest
+   37  man timedatectl
+   38  history
+   39  apropos ping
+   40  man ping4
+   41  apropos hostname
+   42  man 1 hostname
+   43  man 5 hostname
+   44  history
+   45  timedatectl list-Time zone
+   46  man 1 hostname
+   47  sudo timedatectl set-timezone Europe/Brussels
+   48  history
+   49  ls /etc
+   50  cd/var/log
+   51  cd /var/log 
+   52  ls
+   53  pwd
+   54  cd ..
+   55  pwd /var
+   56  cd
+   57  pwd /home/sepideh
+   58  ls -a
+   59  history
+   60  cd /tmp
+   61  mkdir abc
+   62  mkdir aBc
+   63  mkdir abC
+   64  ls
+   65  cd
+   66  cd /tmp
+   67  rm -h
+   68  man rm 
+   69  rm -R abc aBc abC
+   70  cd
+   71  ls -a
+   72  cat .bash_history
+   73  exit
+   74  sudo systemctl status ssh.service
+   75  exit
+   76  ss -pantu
+   77  sudo ss -pantu
+   78  sudo nano  /etc/ssh/sshd_config
+   79  sudo nano -c /etc/ssh/sshd_config
+   80  sudo systemctl restart ssh.srvice
+   81  sudo ss -pantu
+   82  exit
+   83  groups
+   84  id
+   85  sudo gpasswd -a sepideh sshusers
+   86  history
+   87  exit
+   88  sudo ss -pantu
+   89  groups 
+   90  sudo grep -i allowgroups /etc/ssh/ssh_config
+   91  sudo grep -i allowgroups /etc/ssh/sshd_config
+   92  sudo grep -i permitRoot /etc/ssh/sshd_config
+   93  sudo grep -i PermitRootLogin /etc/ssh/sshd_config
+   94  man scp
+   95  exit
+   96  ls
+   97  cat hosts
+   98  exit
+   99  ls
+  100  cat hosts
+  101  ls log
+  102  exit
+  103  less  /etc/group
+  104  groupadd dev
+  105  sudo groupadd dev
+  106  grep -i dev /etc/group
+  107  cat /etc/passwd
+  108  apropos passwd
+  109  man 5 passwd
+  110  cat /etc/passwd
+  111  sudo cat /etc/shadow
+  112  exit
+  113  sudo useradd bail
+  114  grep -i bill /etc/passwd
+  115  grep -i bail /etc/passwd
+  116  grep -i bail /etc/group
+  117  sudo grep -i bail /etc/shadow
+  118  ls -l /home
+  119  sudo userdel bail
+  120  man useradd
+  121  sudo useradd -m -s /bin/bash bail
+  122  grep -i bail /etc/passwd
+  123  ls -l /home
+  124  id bail
+  125  groups bail
+  126  sudo passwd bail
+  127  sudo grep -i bail /etc/shadow
+  128  man passwd
+  129  sudo passwd -l bail
+  130  sudo grep -i bail /etc/shadow
+  131  sudo grep -u bail 
+  132  history
+sepideh@debian:~$ 
+
+
+
+
+
+
+
+
+
+sepi@Host:~$ history
+    1  sudo gpg --dearmor oracle_vbox_2016.asc --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg~
+    2  ll
+    3  sudo gpg --dearmor oracle_vbox_2016.asc --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg
+    4  wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --dearmor --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg
+    5  sudo wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --dearmor --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg
+    6  sudo apt search vitualbox
+    7  history
+    8  sudo apt update
+    9  history
+   10  sudo apt search virtualbox
+   11  sudo apt install virtualbox-7.0 
+   12  apt-get
+   13  sudo apt install virtualbox-7.0
+   14  virtualbox
+   15  ip a
+   16  ip r
+   17  ping 10.125.128.5
+   18  ping 10.125.1.5
+   19  nmcli networking off
+   20  nmcli networking on
+   21  ip a
+   22  ip r
+   23  ping 1.1.1.1
+   24  ping www.kernel.org
+   25  ping 1.1.1.1
+   26  ip r
+   27  PING 1.1.1.1
+   28  ping 1.1.1.1
+   29  nmcli networking off
+   30  nmcli networking on
+   31  ip a
+   32  sudo upt instal samba
+   33  sudo upt samba
+   34  ip a
+   35  ssh -p 2222 sepideh@10.125.1.5
+   36  ssh -p 2222 sepideh@10.125.1.5
+   37  ssh -p 2222 sepideh@10.125.1.5
+   38  y
+   39  ssh -p 2222 sepideh@10.125.1.5
+   40  ssh -p 2222 sepideh@10.125.2.5
+   41  cat /etc/hostname
+   42  cat /etc/hosts
+   43  sudo nano/etc/hosts
+   44  sudo nano /etc/hosts
+   45  ping -c 3 gateway
+   46  sudo nano/etc/hosts
+   47  sudo nano /etc/hosts
+   48  ping -c 3 gateway
+   49  less /etc/services
+   50  history
+   51  grep -i microsoft /etc/services
+   52  grep microsoft /etc/services
+   53  echo "Hello world"
+   54  echo "Hello world" > myfile
+   55  ls
+   56  echo "Bienvenusous Linux" > myfile
+   57  cat myfile 
+   58  echo "Deuxiéme ligne" > myfile
+   59  echo "Troisième ligne" >> myfile
+   60  cat myfile
+   61  history
+   62  sudo apt info logicim
+   63  sudo apt version logicim
+   64  sudo apt show logicim
+   65  sudo apt show logisim
+   66  sudo apt search java
+   67  sudo apt search java/ grep jre
+   68  sudo apt search openjdk
+   69  grep -i sepideh /etc/passwd
+   70  grep -i sepideh/etc/passwd
+   71  grep -i sepideh /etc/passwd
+   72  grep -i sepideh /etc/passwd | cut -d: -f6
+   73  grep -i sepi /etc/passwd
+   74  grep -i sepi /etc/passwd | cut -d: -f6 
+   75  grep -i sepi /etc/passwd | cut -f3,6 
+   76  grep -i sepi /etc/passwd | cut -d: -f3,6 
+   77  mkdir /tmp/testing
+   78  cd /tmp/testing
+   79  mkdir niv1/niv2/niv3
+   80  man mkdir
+   81  mkdir -p niv1/niv2/niv3
+   82  ls
+   83  ls -R
+   84  man ls
+   85  man cp
+   86  cp /etc/services / tmp/testing/niv1/niv2/niv3/
+   87  cp /etc/services /tmp/testing/niv1/niv2/niv3/
+   88  ls /tmp/testing/niv1/niv2/niv3
+   89  SUDO cp -R /var/log niv1/niv2/niv3/
+   90  sudo cp -R /var/log niv1/niv2/niv3/
+   91  ls niv1/niv2/niv3
+   92  tree niv1/niv2/niv3/log
+   93  pwd
+   94  man mv
+   95  sudo mv niv1/niv2/niv3/services niv1/ niv2/
+   96  sudo mv niv1/niv2/niv3/services niv1/niv2/
+   97  ls niv1/niv2/
+   98  ls
+   99  sudo apt install tree
+  100  history
+  101  ls niv1/niv2
+  102  sudo mv niv1/niv2/services niv1/niv2/newfile
+  103  sudo mv niv1/niv2/services niv1/niv2/newfile/
+  104  ls niv1/niv2/niv3/
+  105  sudo mv niv1/niv2/niv3/log niv1/niv2/newdir
+  106  ls niv1/niv2/
+  107  man rm
+  108  sudo rm niv1/niv2/newfile
+  109  ls niv1/niv2/
+  110  pwd
+  111  sudo rm -R niv1/niv2/newdir/
+  112  ls niv1/niv2/
+  113  quiet resulation=1024x768
+  114  ip a
+  115  ssh -p 2223 sepi@10.125.1.5
+  116  S1168s.
+  117  ssh -p 2223 sepideh@10.125.1.5
+  118  nano .bashrc
+  119  nano .bashrc*
+  120  nano .bashrc *
+  121  nano .bashrc
+  122  nano .bashrc 
+  123  source .bashrc 
+  124  ssh -p 2224 sepideh@10.0.2.15
+  125  ssh -p 2224 sepideh@10.125.1.5
+  126  ip a
+  127  ssh -p 2224 sepideh@10.125.1.5
+  128  ip r
+  129  ssh -p 2224 sepideh@10.125.1.5
+  130  HISTORY
+  131  history
+  132  ssh -p 2224 sepideh@10.125.1.5
+  133  ssh-keygen -b 4096
+  134  ls -l .ssh/
+  135  ssh-copy-id -p 224 sepideg@10.125.1.5
+  136  ssh -p 224 sepideg@10.125.1.5
+  137  ssh -p 2224 sepideg@10.125.1.5
+  138  ²
+  139  ssh-keygen -b 4096
+  140  ssh-copy-id -p 2224 sepideh@10.125.1.5
+  141  exit
+  142  ssh -p 2224 sepideh@10.125.1.5
+  143  ssh-copy-id -p 2224 sepideh@10.125.1.5
+  144  ssh -p 2224 sepideh@10.125.1.5
+  145  ssh-keygen -b 4096
+  146  ssh-copy-id -p 2224 sepideh@10.125.1.5
+  147  ssh -p 2224 sepideh@10.125.1.5
+  148  ssh-copy-id -p 2222 sepideh@10.125.1.5
+  149  ssh-copy-id -p 2223 sepideh@10.125.1.5
+  150  ssh -p 2222 sepideh@10.125.1.5
+  151  ssh -p 2223 sepideh@10.125.1.5
+  152  ssh -p 2222 sepideh@10.125.1.5
+  153  ssh -p 2223 sepideh@10.125.1.5
+  154  stfp -P 2222 sepideh@10.125.1.5
+  155  stfp -P 2222 sepi@10.125.1.5
+  156  sftp -P 2222 sepideh@10.125.1.5
+  157  sudo apt search filezilla
+  158  sudo apt install filezilla
+  159  history
+  160  ssh -p 2222 sepideh@10.125.1.5 ls -l
+  161  ssh -P 2222 sepideh@10.125.1.5
+  162  ssh -p 2222 sepideh@10.125.1.5
+  163  ssh -p 2223 sepideh@10.125.1.5
+  164  ssh -p 2222 sepideh@10.125.1.5
+  165  ssh -p 2223 sepideh@10.125.1.5
+  166  sudo nano /etc/ssh/sshd_config
+  167  ssh -p 2223 sepideh@10.125.1.5
+  168  ssh -p 2224 sepideh@10.125.1.5
+  169  ssh -p 2223 sepideh@10.125.1.5
+  170  ssh -p 2222 sepideh@10.125.1.5
+  171  ssh -p 2223 sepideh@10.125.1.5
+  172  ssh -p 2224 sepideh@10.125.1.5
+  173  ssh -p 2223 sepideh@10.125.1.5
+  174  history
+  175  hostname -I
+  176  ssh -p 2222 sepideh@10.125.1.5
+  177  scp -p 2222 /etc/hosts sepideh@10.125.1.5:/home/sepideh
+  178  scp -P 2222 /etc/hosts sepideh@10.125.1.5:/home/sepideh
+  179  ssh -p 2222 sepideh@10.125.1.5
+  180  sudo scp -P 2222 -r /var/log sepideh@10.125.1.5:/home/sepideh
+  181  ssh -p 2222 sepideh@10.125.1.5
+  182  scp -P -r 2222 sepideh@10.125.1.5:/hvar/log .
+  183  scp -P -r 2222 sepideh@10.125.1.5:/home/sepideh
+  184  scp -P 2222 -r sepideh@10.125.1.5:/home/sepideh .
+  185  ssh -p 2222 sepideh@10.125.1.5
+
+  186  cd .config
+  187  ls 
+  188  rm -fr filezilla
+  189  ls
+  190  exit
+  191  history
+sepi@Host:~$ 
+
+
+epideh@debian:~$ sudo sueradd -m -s /bin/bash solange
+sudo: sueradd : commande introuvable
+sepideh@debian:~$ sudo sueradd -m -s /bin/bash solange
+sudo: sueradd : commande introuvable
+sepideh@debian:~$ sudo passwd solange
+passwd: user 'solange' does not exist
+sepideh@debian:~$ sudo gpasswd -a solange sftpuser
+gpasswd: user 'solange' does not exist
+sepideh@debian:~$ group solange
+-bash: group : commande introuvable
+sepideh@debian:~$ sudo sueradd -m -s /bin/bash solange
+sudo: sueradd : commande introuvable
+sepideh@debian:~$ 
+
+
+
+
+
+
+
+
+sepideh@debian:~$ history
+    1  ip a
+    2  sudo nano /etc/net
+    3  sudo nano/etc/network/interfaces
+    4  sudo nano /etc/network/interfaces
+    5  ip r
+    6  sudo nano /etc/network/interfaces
+    7  ip r
+    8  sudo nano /etc/resolv.conf
+    9  ping www.debian.org
+   10  ip a
+   11  sudo nano /etc/resolv.conf
+   12  ping www.debian.org
+   13  sudo reboot
+   14  history
+   15  sudo apt update
+   16  sudo apt upgrade
+   17  sudo apt search htop
+   18  sudo apt info aha
+   19  sudo apt info htop
+   20  sudo apt install htop
+   21  htop
+   22  history
+   23  sudo apt search maria
+   24  sudo apt install mariadb-server
+   25  sudo systemctl status mariadb.service 
+   26  sudo apt remove mariadb-server
+   27  sudo apt autoremove
+   28  history
+   29  time
+   30  timedatectl
+   31  timedatectl list-Time zone
+   32  timedatectl lists-Time zone
+   33  timedatectl list-timezones
+   34  sudo timedatectl set-timezone Europe/Lisbon
+   35  timedatectl
+   36  sudo timedatectl set-timezone Europe/Bucharest
+   37  man timedatectl
+   38  history
+   39  apropos ping
+   40  man ping4
+   41  apropos hostname
+   42  man 1 hostname
+   43  man 5 hostname
+   44  history
+   45  timedatectl list-Time zone
+   46  man 1 hostname
+   47  sudo timedatectl set-timezone Europe/Brussels
+   48  history
+   49  ls /etc
+   50  cd/var/log
+   51  cd /var/log 
+   52  ls
+   53  pwd
+   54  cd ..
+   55  pwd /var
+   56  cd
+   57  pwd /home/sepideh
+   58  ls -a
+   59  history
+   60  cd /tmp
+   61  mkdir abc
+   62  mkdir aBc
+   63  mkdir abC
+   64  ls
+   65  cd
+   66  cd /tmp
+   67  rm -h
+   68  man rm 
+   69  rm -R abc aBc abC
+   70  cd
+   71  ls -a
+   72  cat .bash_history
+   73  exit
+   74  sudo systemctl status ssh.service
+   75  exit
+   76  ss -pantu
+   77  sudo ss -pantu
+   78  sudo nano  /etc/ssh/sshd_config
+   79  sudo nano -c /etc/ssh/sshd_config
+   80  sudo systemctl restart ssh.srvice
+   81  sudo ss -pantu
+   82  exit
+   83  groups
+   84  id
+   85  sudo gpasswd -a sepideh sshusers
+   86  history
+   87  exit
+   88  sudo ss -pantu
+   89  groups 
+   90  sudo grep -i allowgroups /etc/ssh/ssh_config
+   91  sudo grep -i allowgroups /etc/ssh/sshd_config
+   92  sudo grep -i permitRoot /etc/ssh/sshd_config
+   93  sudo grep -i PermitRootLogin /etc/ssh/sshd_config
+   94  man scp
+   95  exit
+   96  ls
+   97  cat hosts
+   98  exit
+   99  ls
+  100  cat hosts
+  101  ls log
+  102  exit
+  103  less  /etc/group
+  104  groupadd dev
+  105  sudo groupadd dev
+  106  grep -i dev /etc/group
+  107  cat /etc/passwd
+  108  apropos passwd
+  109  man 5 passwd
+  110  cat /etc/passwd
+  111  sudo cat /etc/shadow
+  112  exit
+  113  sudo passwd -u bail
+  114  sudo grep -u bail /etc/shadow
+  115  history
+  116  sudo groupadd sftpusers
+  117  sudo gpasswd -a bail sftpusers
+  118  groups bail
+  119  sudo nano /etc/ssh/sshd_config
+  120  sudo system restart ssh.service
+  121  sudo systemctl restart ssh.service
+  122  ssh
+  123  man sshd_config
+  124  sudo mkdir /srv/dev
+  125  sudo chmod 777 /srv/dev
+  126  sudo nano /etc/ssh/sshd_config
+  127  sudo systemctl restart ssh.service
+  128  ls -ld /srv
+  129  ls -ld /srv/dev
+  130  sudo chown bail:sftpusers /srv/dev/
+  131  ls -ld /srv/dev
+  132  sudo chown root /srv/dev/
+  133  ls -ld /srv/dev
+  134  sudo chmod 770 /srv/dev
+  135  sudo chmod 770 /srv/dev/
+  136  ls -ld /srv/dev/
+  137  history
+sepideh@debian:~$ sudo sueradd -m -s /bin/bash solange
+sudo: sueradd : commande introuvable
+sepideh@debian:~$ sudo sueradd -m -s /bin/bash solange
+sudo: sueradd : commande introuvable
+sepideh@debian:~$ sudo passwd solange
+passwd: user 'solange' does not exist
+sepideh@debian:~$ sudo gpasswd -a solange sftpuser
+gpasswd: user 'solange' does not exist
+sepideh@debian:~$ group solange
+-bash: group : commande introuvable
+sepideh@debian:~$ sudo sueradd -m -s /bin/bash solange
+sudo: sueradd : commande introuvable
+sepideh@debian:~$ history
+    1  ip a
+    2  sudo nano /etc/net
+    3  sudo nano/etc/network/interfaces
+    4  sudo nano /etc/network/interfaces
+    5  ip r
+    6  sudo nano /etc/network/interfaces
+    7  ip r
+    8  sudo nano /etc/resolv.conf
+    9  ping www.debian.org
+   10  ip a
+   11  sudo nano /etc/resolv.conf
+   12  ping www.debian.org
+   13  sudo reboot
+   14  history
+   15  sudo apt update
+   16  sudo apt upgrade
+   17  sudo apt search htop
+   18  sudo apt info aha
+   19  sudo apt info htop
+   20  sudo apt install htop
+   21  htop
+   22  history
+   23  sudo apt search maria
+   24  sudo apt install mariadb-server
+   25  sudo systemctl status mariadb.service 
+   26  sudo apt remove mariadb-server
+   27  sudo apt autoremove
+   28  history
+   29  time
+   30  timedatectl
+   31  timedatectl list-Time zone
+   32  timedatectl lists-Time zone
+   33  timedatectl list-timezones
+   34  sudo timedatectl set-timezone Europe/Lisbon
+   35  timedatectl
+   36  sudo timedatectl set-timezone Europe/Bucharest
+   37  man timedatectl
+   38  history
+   39  apropos ping
+   40  man ping4
+   41  apropos hostname
+   42  man 1 hostname
+   43  man 5 hostname
+   44  history
+   45  timedatectl list-Time zone
+   46  man 1 hostname
+   47  sudo timedatectl set-timezone Europe/Brussels
+   48  history
+   49  ls /etc
+   50  cd/var/log
+   51  cd /var/log 
+   52  ls
+   53  pwd
+   54  cd ..
+   55  pwd /var
+   56  cd
+   57  pwd /home/sepideh
+   58  ls -a
+   59  history
+   60  cd /tmp
+   61  mkdir abc
+   62  mkdir aBc
+   63  mkdir abC
+   64  ls
+   65  cd
+   66  cd /tmp
+   67  rm -h
+   68  man rm 
+   69  rm -R abc aBc abC
+   70  cd
+   71  ls -a
+   72  cat .bash_history
+   73  exit
+   74  sudo systemctl status ssh.service
+   75  exit
+   76  ss -pantu
+   77  sudo ss -pantu
+   78  sudo nano  /etc/ssh/sshd_config
+   79  sudo nano -c /etc/ssh/sshd_config
+   80  sudo systemctl restart ssh.srvice
+   81  sudo ss -pantu
+   82  exit
+   83  groups
+   84  id
+   85  sudo gpasswd -a sepideh sshusers
+   86  history
+   87  exit
+   88  sudo ss -pantu
+   89  groups 
+   90  sudo grep -i allowgroups /etc/ssh/ssh_config
+   91  sudo grep -i allowgroups /etc/ssh/sshd_config
+   92  sudo grep -i permitRoot /etc/ssh/sshd_config
+   93  sudo grep -i PermitRootLogin /etc/ssh/sshd_config
+   94  man scp
+   95  exit
+   96  ls
+   97  cat hosts
+   98  exit
+   99  ls
+  100  cat hosts
+  101  ls log
+  102  exit
+  103  less  /etc/group
+  104  groupadd dev
+  105  sudo groupadd dev
+  106  grep -i dev /etc/group
+  107  cat /etc/passwd
+  108  apropos passwd
+  109  man 5 passwd
+  110  cat /etc/passwd
+  111  sudo cat /etc/shadow
+  112  exit
+  113  sudo passwd -u bail
+  114  sudo grep -u bail /etc/shadow
+  115  history
+  116  sudo groupadd sftpusers
+  117  sudo gpasswd -a bail sftpusers
+  118  groups bail
+  119  sudo nano /etc/ssh/sshd_config
+  120  sudo system restart ssh.service
+  121  sudo systemctl restart ssh.service
+  122  ssh
+  123  man sshd_config
+  124  sudo mkdir /srv/dev
+  125  sudo chmod 777 /srv/dev
+  126  sudo nano /etc/ssh/sshd_config
+  127  sudo systemctl restart ssh.service
+  128  ls -ld /srv
+  129  ls -ld /srv/dev
+  130  sudo chown bail:sftpusers /srv/dev/
+  131  ls -ld /srv/dev
+  132  sudo chown root /srv/dev/
+  133  ls -ld /srv/dev
+  134  sudo chmod 770 /srv/dev
+  135  sudo chmod 770 /srv/dev/
+  136  ls -ld /srv/dev/
+  137  history
+  138  sudo sueradd -m -s /bin/bash solange
+  139  sudo passwd solange
+  140  sudo gpasswd -a solange sftpuser
+  141  group solange
+  142  sudo sueradd -m -s /bin/bash solange
+  143  history
+sepideh@debian:~$ 
+
+
+
+
+
+
+
+sepideh@rocky:~$ history
+    1  sudo systemctl status sshd
+    2  sudo passwd sepideh
+    3  exit
+    4  sudo nano /etc/sysconfig
+    5  sudo nano /etc/ssh/sshd_config
+    6  sudo systemctl stop firewalld.service
+    7  sudo systemctl start sshd.service
+    8  exit
+    9  sudo reboot
+   10  sudo groupadd sshusers
+   11  sudo gpasswd -a sepideh sshusers
+   12  sudo nano /etc/ssh/sshd_config
+   13  sudo reboot
+   14  sudo nano /etc/ssh/sshd_config
+   15  sudo reboot
+   16  ip a
+   17  sudo nano /etc/ssh/sshd_config
+   18  id
+   19  sestatus
+   20  sudo nano /etc/sysconfig/selinux
+   21  sudo systemctl disable firewalld.service
+   22  sudo reboot
+   23  exit
+   24  sudo nmtv
+   25  S1168s.
+   26  sudo nmtuv
+   27  sudo nmtuvi
+   28  sudo nmtui
+   29  sudo remove
+   30  sudo reboot
+   31  sudo systemctl status firewalld.service
+   32  sudo systemctl is-active 
+   33  sudo systemctl is-active firewalld.service
+   34  sudo systemctl is
+   35  sudo systemctl
+   36  sudo systemctl list-units
+   37  sudo systemctl list-units --help
+   38  sudo systemctl list-units --type service
+   39  sudo systemctl list-units-files --type service
+   40  sudo systemctl list-unit-files --type service
+   41  man tar
+   42  sudo mkdir /srv/backup
+   43  ls /var/log
+   44  sudo grep -i ssh /var/log/secure
+   45  sudo grep -i ssh /var/log/secure | grep -i opened
+   46  sudo tar -cf /srv/backup/logs.tar /var/log
+   47  sudo dnf search tar
+   48  sudo dnf install tar
+   49  sudo tar -cf /srv/backup/logs.tar /var/log
+   50  20!
+   51  tar -tf /srv/backup/logs.tar
+   52  sudo tar -xf /srv/backup/logs.tar
+   53  ls
+   54  cd /srv/backup
+   55  ls -l
+   56  ls -lh
+   57  sudo gzip logs.tar
+   58  ls -lh
+   59  sudo gunzip logs.tar.gz
+   60  ls -lh
+   61  sudo dnf search bzip2
+   62  sudo dnf install bzip2
+   63  ll
+   64  sudo bzip2 logs.tar
+   65  ls -lh
+   66  sudo bunzip2 logs.tar.bz2
+   67  ls -lh
+   68  man tar
+   69  sudo tar -czf logs.tar.gz /var/log
+   70  ll
+   71  ll -h
+   72  sudo tar -czf log.tar.gz /var/log
+   73  sudo tar -cjf log.tar.gz /var/log
+   74  ls -l -h
+   75  sudo dnf search rsyn
+   76  sudo dnf install rsync
+   77  man rsync
+   78  ls -l
+   79  sudo rsync -av /var/log .
+   80  ls -l
+   81  sudo rsync -av /var/log .
+   82  sudo systemctl status crond.service
+   83  ls
+   84  sudo mkdir debian ubuntu
+   85  ls -lh
+   86  sudo chown : sshusers debian/
+   87  ll
+   88  sudo chown :sshusers debian/
+   89  ll
+   90  sudo chown :sshusers ubuntu/
+   91  ll
+   92  sudo chmod 770 debian ubuntu
+   93  ll
+   94  history
+sepideh@rocky:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+root@rocky ~]# history
+    1  ssh-keygen -b 4096
+    2  ssh-copy-id -p 2222 sepideh@192.168.100.22
+    3  ssh-copy-id -p 2224 sepideh@192.168.100.24
+    4  history
+[root@rocky ~]# 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sepideh@rocky:~$ history
+    1  sudo systemctl status sshd
+    2  sudo passwd sepideh
+    3  exit
+    4  sudo nano /etc/sysconfig
+    5  sudo nano /etc/ssh/sshd_config
+    6  sudo systemctl stop firewalld.service
+    7  sudo systemctl start sshd.service
+    8  exit
+    9  sudo reboot
+   10  sudo groupadd sshusers
+   11  sudo gpasswd -a sepideh sshusers
+   12  sudo nano /etc/ssh/sshd_config
+   13  sudo reboot
+   14  sudo nano /etc/ssh/sshd_config
+   15  sudo reboot
+   16  ip a
+   17  sudo nano /etc/ssh/sshd_config
+   18  id
+   19  sestatus
+   20  sudo nano /etc/sysconfig/selinux
+   21  sudo systemctl disable firewalld.service
+   22  sudo reboot
+   23  exit
+   24  sudo nmtv
+   25  S1168s.
+   26  sudo nmtuv
+   27  sudo nmtuvi
+   28  sudo nmtui
+   29  sudo remove
+   30  sudo reboot
+   31  sudo systemctl status firewalld.service
+   32  sudo systemctl is-active 
+   33  sudo systemctl is-active firewalld.service
+   34  sudo systemctl is
+   35  sudo systemctl
+   36  sudo systemctl list-units
+   37  sudo systemctl list-units --help
+   38  sudo systemctl list-units --type service
+   39  sudo systemctl list-units-files --type service
+   40  sudo systemctl list-unit-files --type service
+   41  man tar
+   42  sudo mkdir /srv/backup
+   43  ls /var/log
+   44  sudo grep -i ssh /var/log/secure
+   45  sudo grep -i ssh /var/log/secure | grep -i opened
+   46  sudo tar -cf /srv/backup/logs.tar /var/log
+   47  sudo dnf search tar
+   48  sudo dnf install tar
+   49  sudo tar -cf /srv/backup/logs.tar /var/log
+   50  20!
+   51  tar -tf /srv/backup/logs.tar
+   52  sudo tar -xf /srv/backup/logs.tar
+   53  ls
+   54  cd /srv/backup
+   55  ls -l
+   56  ls -lh
+   57  sudo gzip logs.tar
+   58  ls -lh
+   59  sudo gunzip logs.tar.gz
+   60  ls -lh
+   61  sudo dnf search bzip2
+   62  sudo dnf install bzip2
+   63  ll
+   64  sudo bzip2 logs.tar
+   65  ls -lh
+   66  sudo bunzip2 logs.tar.bz2
+   67  ls -lh
+   68  man tar
+   69  sudo tar -czf logs.tar.gz /var/log
+   70  ll
+   71  ll -h
+   72  sudo tar -czf log.tar.gz /var/log
+   73  sudo tar -cjf log.tar.gz /var/log
+   74  ls -l -h
+   75  sudo dnf search rsyn
+   76  sudo dnf install rsync
+   77  man rsync
+   78  ls -l
+   79  sudo rsync -av /var/log .
+   80  ls -l
+   81  sudo rsync -av /var/log .
+   82  sudo systemctl status crond.service
+   83  ls
+   84  sudo mkdir debian ubuntu
+   85  ls -lh
+   86  sudo chown : sshusers debian/
+   87  ll
+   88  sudo chown :sshusers debian/
+   89  ll
+   90  sudo chown :sshusers ubuntu/
+   91  ll
+   92  sudo chmod 770 debian ubuntu
+   93  ll
+   94  history
+   95  exit
+   96  dr /srv/backup
+   97  ssh-copy-id -p 2222 sepideh@192.168.100.22
+   98  sudo su -
+   99  exit
+  100  cd .ssh
+  101  cd
+  102  nano backup.sh
+  103  sudo systemctl status crond.service
+  104  sudo nano /etc/cron.d/backup
+  105  pwd
+  106  ls
+  107  chmod 775 backup.sh
+  108  ls
+  109  ls -l
+  110  sudo nano /etc/cron.d/backup
+  111  sudo cat /var/log/cron
+  112  sudo tail -f /var/log/cron
+  113  sudo /home/sepideh/backup.sh
+  114  sudo nano /etc/cron.d/backup
+  115  nano backup.sh
+  116  chmod 755 backup.sh
+  117  ls -l
+  118  sudo nano /etc/cron.d/backup
+  119  sudo tail -f /var/log/cron
+  120  sudo /home/sepideh/backup.sh
+  121  sudo tail -f /var/log/cron
+  122  los
+  123  ls
+  124  sudo nano backup.sh 
+  125  sudo nano /var/log/cron
+  126  sudo nano /etc/cron.d/backup 
+  127  sudo nano backup.sh 
+  128  sudo /home/sepideh/backup.sh
+  129  ssh-copy-id -p root@192.168.100.22
+  130  ssh-copy-id 2222 -p root@192.168.100.22
+  131  ssh-copy-id -p 2222 root@192.168.100.22
+  132  ssh -copy-id -p 2222 root@192.168.100.22
+  133  ssh-copy-id -p 2222 root@192.168.100.22
+  134  sudo su -
+  135  ls
+  136  cat backup.sh
+  137  sudo ./backup.sh 
+  138  nano backup.sh
+  139  sudo ./backup.sh 
+  140  sudo nano /etc/cron.d/backup
+  141  sudo tail -f /var/log/cron
+  142  history
+sepideh@rocky:~$ 
+
+
+
+
+
+
+
+
+
+
+[root@rocky ~]# cat .ssh/authorized_keys
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC7395A3RBxHeSl1ARwRDwjOAssQbvrwfZLlyRgCLwKioEspo6FsgHeCkt7M9ItKlNCdt3UbcgwJWS65Ik0r25XzQHni6WXXQd+NmVtWDnL+9QWH/PW44SfndMfW/D7LeNmtCD7BHHO5O/sRMk7XyzLJEihZch2Dd3tpSsC97pQQtl8NYX+gOpvf0cq021VJ41pJjhMI0TrkuwijtxSEoW4+phoV1BqhtSD50CG33bvK8cXrKLe7SUdPc2PgxJT+nxXPmqjcNfAg7Nfhrkx/GGlcYa2lJDhgx1ubRibst3uh+kCzPZvusmxBQ2XSe2RkS+FKv9d4IvUOHv7st917mOkCYXwSfMbr388sVk8+8jYtQr6V1/H7D3kZRmQAHl5sqGQv33Me3MQiHo4eTDS0hWTqTyMiH+JlrYiZv8lV1EGBLb3q4RiCqtW4UzcGltyE9Zk11XsLGlH2mpaC1ghjRYLZueFXEsr+Swzx6sjf3jNfKf1yDmJVxoelYlTD/21L031/4b6S3j4dNdxLPc9P0ImqVFypet8JvLFFbUlCm3wruijPIiVE54Cqia6tMidhFvZKinN8TR1S3j7VOZRTlMP4BdffPKsibGAbpRTcK27DuMt272cuXP7IQTqKebzrLjLsnrP6on+7cLsM7eHQml7ACu/11w0LTZWQzlkQSxG9Q== root@debian
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDJUXkN5b2KFn2oAc8hnkLgPzO4sCW/uUnNcHyQ/EHsrufZT+oQ5xBU2oOaKAFtMwbiR0aToqqkRR3bz3kn6zt3fB7eIPmQFS4Vu6FagV50eA+WXgdKd/B5A+Jnov6YWSlqam4cvH1zt8PwsuNMDj+SDPjzPB4s055KD/ZolRxGGYqiB7ZTetWoDfDun5wj7Sk9FrErrNHeH3pk7VvrkLEDzOctGNtI2DJzmCrO7aIelM4niMyTeKMPg4WULzcUyM4+H2uZGyRnUxikstOYbRvdcJnvqAIqB5FVmzSKbmdbHyvMrTlPzfKZyTpXCEo/vtmvIF7IKdqwKgXIzllh2o/rFHQQfQCuXisKs4j4NLvItSKw08W4AhoI86vVI5MJ7Xxzzi0+ysiIr/+/IAkQxjevPn/V3LlwyZSz//g3DrQN3APiPr/3te2hGvFGGiTWqmIah6HqbvfOHgsVm6m+YjH4Wst+ONRgYDHr2gs4ZCpqL7xinQeUJbc+o02fjoNGDt0= root@rocky
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDG7de3HMP9xYSr+ZR0fo5FQBF22Z64iEcEnXHfxn5WRtf4yf5U9Vkr0WKLAGweBi4QN7y50xMQPC60SP+0ilU6lr4R9HKxIl35EbcNFE8skz20E/cqLwLhkeY+0vAH9XpEN/65xA8p5gc0147l2ACpzYc5B6GBUoiidMO9yrJdwoSdiPp93EwqNEJtfcD0m8yQVXG7NJsqTUYdSa86xSFddq7J9kG0PVQ++Wzyk3QxWlyu6tTXS+69ZlK+a524HCuszx18nLYL7SQChtVIuNJUPse1JEGI8Q3xVtqJF2pUr+DdLS9kebHqqO2s+0OgTPw3bqL3EGnCFTX9m+A2SMA5tvhS+H1n9GOC5CAxlle+Ma8d/j5/am1cF4qgTI+zIbouQdMasOpl5+OseCfXEO0SeWV2aqoKYEQWvzl7l7BfK5fZrumFh+m+ZxUIEqCy4OtpX2P+pJkh/2Q5JchGYKHLxqtxUQYW6u+zhDuq/j8TzNrblbO0oSqTWq5A5XdLVIvrKxWISTEexReamw2CX5n6vhb6ke/f3139mfPkoKq5mw+mItESiGG8VoMv0Rttqw/mTYxVI5O+fO0IY3GqzIwfBQTatPWtpOf3zHHThn6OyISdArkWVxApo/eVQqLwX34ZTzg1t8//KKKwm2fIaIx0/zcEk2GqonCqrkqeuqLg1w== root@ubuntu
+[root@rocky ~]# ssh-copy-id root@10.77.1.11
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/root/.ssh/id_rsa.pub"
+The authenticity of host '10.77.1.11 (10.77.1.11)' can't be established.
+ED25519 key fingerprint is SHA256:o51KoGFkQSd7j9NTM8R6HoLOXpULdFGd6yRoaF29ofk.
+This host key is known by the following other names/addresses:
+    ~/.ssh/known_hosts:1: [192.168.100.22]:2222
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+
+
+
+
+
+sepideh@rocky:~$ sudo mkdir /etc/devops
+sepideh@rocky:~$ cd /etc/devops
+sepideh@rocky:/etc/devops$ sudo nano backup.sh
+
+
+
+#!/bin/bash
+
+rsync -av -e 'ssh -p 22' root@10.77.1.11:/var/log /srv/backup/debian
+
+rsync -av -e 'ssh -p 22' root@10.77.1.13:/var/log /srv/backup/ubuntu
+
+
+sepideh@rocky:/etc/devops$ sudo chmode 755 backup.sh
+epideh@rocky:/etc/devops$ sudo chmod 755 backup.sh
+sepideh@rocky:/etc/devops$ ls
+
+
+
+
+sepideh@rocky: et sepideh@debian: et sepideh@ubuntu:
+
+sudo nano /etc/cron.d/devops
+
+#30,45 8 * * 1-5 root /etc/devops/backup.sh
+#*/15 9-16 * * 1-5 root /etc/devops/backup.sh
+#0 17 * * 1-5 root /etc/devops/backup.sh
+
+
+
+epideh@rocky:/var/log$ sudo nano /etc/cron.d/devops
+
+30,45 8 * * 1-5 root /etc/devops/backup.sh
+*/15 9-16 * * 1-5 root /etc/devops/backup.sh
+0 17 * * 1-5 root /etc/devops/backup.sh
+
+
+sepideh@rocky:/var/log$ sudo tail -f /var/log/cron
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
