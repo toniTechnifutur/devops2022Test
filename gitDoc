@@ -1,0 +1,70 @@
+  294  sudo apt install git
+  297  git config --list --show-origin
+  302  git config --global user.name "toni"
+  303  sudo apt install git-all
+  304  git config --global user.name "toni"
+  305  git config --list --show-orgin
+  307  git config --global core.editor xed
+  308  git config --list --show-origin
+  316  mkdir test1
+  318  git init
+  319  git status
+  327  git status
+  328  git commit -m "mon premier commit"
+  329  git config --list
+  330  git config --global user.email "toni.umina.gmail.com"
+  331  git config --list
+  332  git config --global user.email "toni.umina@gmail.com"
+  333  git config --list
+  334  git commit -m "mon premier commit"
+  335  git status
+  337  git add Untitled Document 
+  338  git add Untitled\ Document 
+  339  git status
+  340  git commit
+  341  git status
+  342  git add Untitled\ Document 
+  343  git status
+  344  git commit
+  345  git config --list
+  346  git commit 
+  347  git commit -m "version2"
+  348  git add Untitled\ Document 
+  349  git commit 
+  350  git commit -m "version"
+  351  git status
+  352  git log
+  353  git add .
+  354  git commit - "troisieme commit"
+  355  git commit -m "troisieme commit"
+  356  git log
+  357  git status
+  358  git checkout 9a9b
+  359  git log
+  360  git checkout master
+  361  git log
+  362  git tag tag1 22
+  363  git tag tag1 2283
+  364  git log
+  365  git checkout tag1
+  366  git log
+  367  git switch
+  368  git switch master
+  369  git log
+  370  git branch dev
+  371  git branch 
+
+  367  git switch
+  368  git switch master
+  369  git log
+  370  git branch dev
+  371  git branch 
+  372  history 
+  373  git switch dev
+  374  git branch 
+  375  git status
+  376  git add
+  377  git add .
+  378  git commit -m "docSur git"
+  379  git log
+
